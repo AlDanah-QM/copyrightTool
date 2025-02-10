@@ -1,4 +1,4 @@
-
+```mermaid
 
 graph TD;
     A[Start: Copyright Clearance Check] --> B[Step 1: Is the work eligible for copyright protection?]
@@ -48,3 +48,4 @@ graph TD;
     PD8 & PD9 --> PD_Final[Public Domain Can apply CC0]
     CR3 & CR4 --> CR_Final[Copyrighted]
     L1 & L2 --> LegalReview[Requires Extra/Legal Review]
+```
