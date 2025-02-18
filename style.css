@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 500px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: auto;
+}
+
+/* Welcome message above buttons */
+.welcome {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Tabs container to center content */
+.tabs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Button container ensuring all buttons stay in one row */
+.button-group {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap; /* Prevents buttons from wrapping to a new line */
+    gap: 10px;
+    margin-top: 10px;
+}
+
+/* Button styling */
+.tabs button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background 0.3s ease;
+    min-width: 130px; /* Ensures buttons have equal width */
+}
+
+.tabs button:hover {
+    background-color: #0056b3;
+}
+
+/* Checklist styling */
+.checklist {
+    margin-top: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #f9f9f9;
+}
+
+.checklist label {
+    display: block;
+    margin: 5px 0;
+}
+
+/* Decision area (for displaying results under checklists) */
+.decision-area {
+    margin-top: 15px;
+    font-weight: bold;
+}
+.checklist-section {
+    margin-top: 30px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #f9f9f9;
+}
+
+

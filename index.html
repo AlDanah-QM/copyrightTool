@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Copyright Clearance</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <h1>Copyright Clearance</h1>
+    <p class="welcome">Please select a jurisdiction.</p>
+
+    <div class="tabs">
+        <div class="button-group">
+            <button onclick="selectJurisdiction('US')">US Copyright</button>
+            <button onclick="selectJurisdiction('UK')">UK Copyright</button>
+            <button onclick="selectJurisdiction('QM')">QM Copyright</button>
+        </div>
+    </div>
+    
+    <div id="question-container">
+        <div id="checklist-1" class="checklist" style="display: none;"></div>
+        <div id="checklist-2" class="checklist" style="display: none;"></div>
+        <div id="checklist-3" class="checklist" style="display: none;"></div>
+    </div>
+    
+    <div id="result"></div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
